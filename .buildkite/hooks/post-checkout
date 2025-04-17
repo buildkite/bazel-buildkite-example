@@ -5,4 +5,7 @@
 # system, you'd adapt this script to install Bazel in whatever way is
 # appropriate for that OS. See the Bazel install docs for details.
 # https://bazel.build/install
-brew install bazelisk
+#
+# To learn more about Buildkite agent lifecycle hooks like this one:
+# https://buildkite.com/docs/agent/v3/hooks
+brew install bazelisk || true

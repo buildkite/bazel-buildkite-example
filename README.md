@@ -127,7 +127,6 @@ $ python3 .buildkite/pipeline.py
 {
     "steps": [
         {
-            "key": "app",
             "label": ":bazel: Build and test //app/...",
             "commands": [
                 "bazel test //app/...",
@@ -142,7 +141,6 @@ $ python3 .buildkite/pipeline.py
             ]
         },
         {
-            "key": "library",
             "label": ":bazel: Build and test //library/...",
             "commands": [
                 "bazel test //library/...",
